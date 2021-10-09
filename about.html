@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford - About Us</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+           <a href="index.html"><img src="Image\logo.png" alt="logo"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>About Us</h1>
+    </section>
+<!-- ------ About Us Content------ -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aut iste repudiandae amet enim dolore nemo quod reprehenderit ut? Voluptatem aliquid quod, quas porro neque facere odit eum inventore adipisci facilis ab. Debitis quidem ad repellendus, iste suscipit repudiandae vitae.</p>
+            <a href="" class="hero-bton red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="Image\about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+ <!-- ----Footer------ -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet alias fugiat magnam, voluptas animi quasi cum, autem aperiam distinctio sed labore <br> asperiores ipsam repudiandae omnis. Doloribus sint fugiat magni sed impedit consequuntur est mollitia qui <br> minima id, autem tempora culpa.</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-Linkedin"></i>
+    </div>
+    <p>© Eduford. All rights reserved.</p>
+</section>
+
+
+<!-- ----our javascripts programe for the nav bar hover ment------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
